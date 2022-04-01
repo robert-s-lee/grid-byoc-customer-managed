@@ -61,6 +61,7 @@ jobs:
           grid-args: ${{ github.event.inputs.grid-args }}
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}          
+          gh-access-token: ${{ secrets.GH_ACCESS_TOKEN }}          
       - id: gridai-obj-status
         run: |
           # failed can flipped to running.  check 3 times for flip flop.
