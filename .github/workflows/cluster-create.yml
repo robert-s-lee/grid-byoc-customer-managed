@@ -9,9 +9,9 @@ on:
         default: c$(date '+%y%m%d-%H%M%S')
         description: Grid.ai BYOC cluster name
       grid-args:
-        required: true
+        required: false
         default: ""
-        description: "`grid clusters aws` cmd"
+        description: "`grid clusters aws` arguments"
       aws-region:
         required: true
         default: us-east-1
