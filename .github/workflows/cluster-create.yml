@@ -24,7 +24,7 @@ on:
       tf-file-args:
         required: false
         default: "./example/dev.tfvars"
-        description:  tf apply -var-file argument
+        description: "tf apply -var-file argument"
       tf-var-args:
         required: false
         default: "\
