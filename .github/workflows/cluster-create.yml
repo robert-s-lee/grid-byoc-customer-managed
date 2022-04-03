@@ -11,7 +11,7 @@ on:
       grid-args:
         required: true
         default: ""
-        description: `grid clusters aws` cmd
+        description: "`grid clusters aws` cmd"
       aws-region:
         required: true
         default: us-east-1
