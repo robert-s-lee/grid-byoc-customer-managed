@@ -28,7 +28,7 @@ on:
       tf-var-args:
         required: false
         default: "\
-            -var 'instances=[{\"name\": \"t2.medium\", \"overprovisioned_ondemand_count\": 0}, {\"name\": \"g4dn.xlarge\", \"overprovisioned_ondemand_count\": 0}]' \
+            -var 'instances=[{\"name\": \"t2.medium\", \"overprovisioned_ondemand_count\": 0}, {\"name\": \"g4dn.xlarge\", \"overprovisioned_ondemand_count\": 0}, {\"name\":\"m5a.large\", \"overprovisioned_ondemand_count\": 0} ]' \
             -var builder_ami_name_override='' \
             -var bastion_ami_override='' \
         "        
