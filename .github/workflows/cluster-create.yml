@@ -10,7 +10,7 @@ on:
         description: Grid.ai BYOC cluster name
       grid-args:
         required: true
-        default:
+        default: ""
         description: `grid clusters aws` cmd
       aws-region:
         required: true
